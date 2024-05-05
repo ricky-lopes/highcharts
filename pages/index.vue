@@ -1,9 +1,5 @@
 <template>
     <div class="p-8 gap-3 flex flex-col">
-        <div class="w-full flex justify-between">
-            <h1 class="font-bold text-xl">Ricky Lopes</h1>
-            <h1 class="font-bold text-xl">Developer</h1>
-        </div>
         <div class="p-8 border border-slate-300 rounded">
             <h1 class="font-bold text-lg">PieChart</h1>
             <Piechart :namepage="'PieChart'" :datas="data"/>
